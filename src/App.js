@@ -18,7 +18,7 @@ export default function App() {
 
   const isEvenOrOdd = () => {
     let i = 0;
-    while (i < 10000000000) {
+    while (i < 1000000) {
       i = i + 1;
     }
     return count1 % 2 === 0;
