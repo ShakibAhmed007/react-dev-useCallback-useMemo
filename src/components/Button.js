@@ -1,9 +1,8 @@
 import React from 'react';
 
 const Button = props => {
-  console.log('rendering button');
-
   const { handleClick, children } = props;
+  console.log(`rendering button ${children}`);
   return (
     <button type="button" onClick={handleClick}>
       {children}
@@ -11,4 +10,4 @@ const Button = props => {
   );
 };
 
-export default Button;
+export default React.memo(Button);

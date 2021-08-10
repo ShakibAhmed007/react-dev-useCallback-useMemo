@@ -11,4 +11,4 @@ const ShowCount = props => {
   );
 };
 
-export default ShowCount;
+export default React.memo(ShowCount);
